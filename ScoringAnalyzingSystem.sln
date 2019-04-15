@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoringAnalyzingSystem", "ScoringAnalyzingSystem\ScoringAnalyzingSystem.csproj", "{6BEA1B12-B3AA-489A-9F34-02407EE95031}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegesAdmission", "..\CollegesAdmission\CollegesAdmission\CollegesAdmission.csproj", "{4CE013BB-E48C-4F1B-84CF-07A9C1DCC241}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupSAS", "SetupSAS\SetupSAS.vdproj", "{48CF5821-B43D-4C93-A3B2-872F0232C636}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6BEA1B12-B3AA-489A-9F34-02407EE95031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6BEA1B12-B3AA-489A-9F34-02407EE95031}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6BEA1B12-B3AA-489A-9F34-02407EE95031}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6BEA1B12-B3AA-489A-9F34-02407EE95031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE013BB-E48C-4F1B-84CF-07A9C1DCC241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE013BB-E48C-4F1B-84CF-07A9C1DCC241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE013BB-E48C-4F1B-84CF-07A9C1DCC241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE013BB-E48C-4F1B-84CF-07A9C1DCC241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48CF5821-B43D-4C93-A3B2-872F0232C636}.Debug|Any CPU.ActiveCfg = Debug
+		{48CF5821-B43D-4C93-A3B2-872F0232C636}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
