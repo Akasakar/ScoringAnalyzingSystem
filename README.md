@@ -251,9 +251,10 @@
 >```cs
 >static string CONNECTION = @"server = .; database = SASdatabase; Trusted_Connection=SSPI";
 >```
->由于数据量达到上w条，采取批量插入方式，利用 SqlBulkCopy 的批量插入方式解决插入速度慢的问题。
+>由于数据量达到上w条，采取批量插入方式，利用 SqlBulkCopy 的批量插入方式解决插入速度慢的问题。  
+>
 >$$
->({批量插入时，只有第一条数据会触发SQL数据库的触发器}_{如果有触发器的话})
+>{批量插入时，只有第一条数据会触发SQL数据库的触发器}_{如果有触发器的话}
 >$$  
 >
 >---  
